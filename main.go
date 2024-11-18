@@ -113,7 +113,7 @@ func main() {
 	fmt.Println(password)
 }
 
-// Function to generate a random password containing the specified fields
+// Method to generate a random password containing the specified fields
 func (val PasswordConfig) GeneratePassword() string {
 	defaultSet := "abcdefghijklmnopqrstuvwxyz"
 
